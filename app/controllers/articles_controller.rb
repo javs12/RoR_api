@@ -10,6 +10,6 @@ class ArticlesController < ApplicationController
   end
 
   def articles
-    Article.all
+    Article.recent
   end
 end
